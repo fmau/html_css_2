@@ -19,3 +19,14 @@ body {
     font-size: 3rem;
     margin-bottom: 0.5rem;
 }
+.footer {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    /* padding-block: 2rem;
+    padding-inline: calc((100vw - min(60rem, 60rem)) / 2); */
+}
+.footer p {
+    max-width: 65rem;
+    padding: 2rem;
+    margin: auto;
+}
