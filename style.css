@@ -19,6 +19,27 @@ body {
     font-size: 3rem;
     margin-bottom: 0.5rem;
 }
+.button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    background: black;
+    color: white;
+    margin: 1rem .5rem;
+    font: inherit;
+    user-select: none;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button--secondary {
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+
 .footer {
     background-color: rgb(35, 35, 35);
     color: white;
