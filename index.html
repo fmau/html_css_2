@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="lightbox.css">
     <link rel="stylesheet" href="style.css">
+    <script src="lightbox.js" defer></script>
 </head>
 
 <body>
@@ -36,8 +38,23 @@
 
     </div>
     <hr>
-    <main class="container"></main>
-    <footer class="footer"><p>Copyrightvermerk oder Ähnliches</p></footer>
+    <main class="container">
+        <div id="bild-container">
+            <div class="bild-wrapper">
+                <img src="bilder/see.jpg" alt="See">
+            </div>
+            <div class="bild-wrapper">
+                <img src="bilder/trauben.jpg" alt="Trauben">
+            </div>
+            <div class="bild-wrapper">
+                <img src="bilder/beeren.jpg" alt="Beeren">
+            </div>
+        </div>
+        <div id="lightbox"></div>
+    </main>
+    <footer class="footer">
+        <p>Copyrightvermerk oder Ähnliches</p>
+    </footer>
 
 </body>
 
