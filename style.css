@@ -55,6 +55,7 @@ body {
     margin: 1rem .5rem;
     font: inherit;
     user-select: none;
+    transition: all 3s ease;
 }
 .button:hover {
     background-color: white;
@@ -81,6 +82,7 @@ body {
     border-radius: .5rem;
     border: 1px solid rgb(237, 229, 229);
     margin: 0;
+
 }
 
 .photo img {
@@ -89,11 +91,27 @@ body {
     object-fit: cover;
     width: 100%;
     aspect-ratio: 3/2;
+    
 }
+
 .photo figcaption {
     padding: 1rem;
 }
+/* Hover-Animation */
+.photo img {
+    transition: all 1s ease;
+}
 
+.photo img:hover {
+    scale: 1.2;
+}
+
+.photo__container {
+    aspect-ratio: 3/2;
+    width: 100%;
+    overflow: hidden;
+    
+}
 .footer {
     background-color: rgb(35, 35, 35);
     color: white;
